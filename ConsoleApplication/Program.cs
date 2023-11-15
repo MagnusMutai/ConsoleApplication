@@ -6,12 +6,19 @@ namespace VariableTypes
     {
         static void Main(string[] args)
         {
-            int y = 20, x = 10, z;
+            Console.WriteLine("Statements1");
 
-            z = x++ * --y;   
-            Console.WriteLine("The value of x is {0}, y is {1} and result z is {2}", x, y, z);
+            goto statement4;
+            Console.WriteLine("Statements2");
+            Console.WriteLine("Statements3");
+
+            statement4:
+            Console.WriteLine("Statements4");
+            Console.WriteLine("Statements5");
+
             Console.ReadKey();
         }
+
     }
 
     //Pre - No
