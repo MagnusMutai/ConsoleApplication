@@ -6,16 +6,19 @@ namespace VariableTypes
     {
         static void Main(string[] args)
         {
-            int x = 10;
-            int Result1 = x++;
-            Console.WriteLine("x is {0} and Result1 is {1}", x, Result1);
+            Console.WriteLine("Statements1");
 
-            int y = 10;
-            int Result2 = ++y;
-            Console.WriteLine("y is {0} and Result2 is {1}", y, Result2);
+            goto statement4;
+            Console.WriteLine("Statements2");
+            Console.WriteLine("Statements3");
+
+            statement4:
+            Console.WriteLine("Statements4");
+            Console.WriteLine("Statements5");
 
             Console.ReadKey();
         }
+
     }
 
     //Pre - No
@@ -29,6 +32,15 @@ namespace VariableTypes
     //E - Skip as there is no logical expression
     //A  - Result1 = 11
     //P No
+
+//The process of catching exception by converting CLR given exception message to human understable message
+//and by stopping abnormal termination of the program is called exception handling
+
+    //we catch exceptions in two ways simultaneously  1. Converting CLR given message to human understable message.
+    //                                                2. Stopping abnormal termination of the program.
+    //    All this is called exception handling.
+    //    So exception handling is the catching of exceptions by converting CLR given messages to human understandlable messages
+    //    and catching of exceptions by stopping the abnormal termination of the program.
 }
 
 
