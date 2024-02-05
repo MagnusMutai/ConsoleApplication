@@ -14,8 +14,10 @@ namespace VariableTypes
 
             static void Method1()
             {
-
+                Console.WriteLine("Gilbert is dead!");Jus
             }
+
+            t1.Start();
         }
     }
 }
